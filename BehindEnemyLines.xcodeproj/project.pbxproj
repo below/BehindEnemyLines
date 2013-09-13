@@ -28,6 +28,13 @@
 			remoteGlobalIDString = CB7482E717E3C1AA009BACEE;
 			remoteInfo = BehindEnemyLines;
 		};
+		CB74833D17E3C1D9009BACEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB74833917E3C1D8009BACEE /* bhl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CB74832817E3C1D8009BACEE;
+			remoteInfo = bhl;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +57,7 @@
 		CB74831117E3C1AB009BACEE /* BehindEnemyLinesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BehindEnemyLinesTests-Info.plist"; sourceTree = "<group>"; };
 		CB74831317E3C1AB009BACEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB74831517E3C1AB009BACEE /* BehindEnemyLinesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BehindEnemyLinesTests.m; sourceTree = "<group>"; };
+		CB74833917E3C1D8009BACEE /* bhl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = bhl.xcodeproj; path = bhl/bhl.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,7 @@
 				CB74830017E3C1AB009BACEE /* MainMenu.xib */,
 				CB74830317E3C1AB009BACEE /* Images.xcassets */,
 				CB7482F217E3C1AB009BACEE /* Supporting Files */,
+				CB74833917E3C1D8009BACEE /* bhl.xcodeproj */,
 			);
 			path = BehindEnemyLines;
 			sourceTree = "<group>";
@@ -152,6 +161,14 @@
 				CB74831217E3C1AB009BACEE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB74833A17E3C1D8009BACEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB74833E17E3C1D9009BACEE /* bhl */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +235,12 @@
 			mainGroup = CB7482DF17E3C1AA009BACEE;
 			productRefGroup = CB7482E917E3C1AA009BACEE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CB74833A17E3C1D8009BACEE /* Products */;
+					ProjectRef = CB74833917E3C1D8009BACEE /* bhl.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CB7482E717E3C1AA009BACEE /* BehindEnemyLines */,
@@ -225,6 +248,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CB74833E17E3C1D9009BACEE /* bhl */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = bhl;
+			remoteRef = CB74833D17E3C1D9009BACEE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CB7482E617E3C1AA009BACEE /* Resources */ = {
